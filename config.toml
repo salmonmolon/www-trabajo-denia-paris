@@ -1,0 +1,30 @@
+title = "Viaje a París"
+baseURL = "http://salmorejo.nex.sh/"
+languageCode = "es-es"
+theme = ["hugo-video", "ananke"]
+publishDir = "/var/www/html/"
+
+DefaultContentLanguage = "es"
+
+[params]
+  site_logo = "/images/logo_denia.svg"
+  favicon = "/images/logo_denia.svg"
+  github = "https://github.com/salmonmolon"
+  
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "Acerca de"
+    url = "/about/"
+    weight = -100
+
+  [[menu.main]]
+    name = "Artículos"
+    url = "/posts/"
+    weight = -110
+    
+  [[menu.main]]
+    name = "Archivos"
+    url = "/files/"
+    weight = -105
