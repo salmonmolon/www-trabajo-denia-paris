@@ -9,7 +9,7 @@ DefaultContentLanguage = "es"
 [params]
   site_logo = "/images/logo_denia.svg"
   favicon = "/images/logo_denia.svg"
-  github = "https://github.com/salmonmolon"
+  github = "https://github.com/salmonmolon/www-trabajo-denia-paris"
   
 [menu]
 
